@@ -1,0 +1,29 @@
+patch:  
+  schema_list:  
+    - schema: luna_pinyin          # 朙月拼音  
+    - schema: luna_pinyin_simp     # 朙月拼音 简化字模式 
+    - schema: double_pinyin_flypy  # 小鶴雙拼
+    - schema: emoji         # emoji 表情
+  # punctuator/full_shape:
+  #   "/": "、"
+  # punctuator/half_shape:
+  #   "/": "、"
+
+  menu/page_size: 9
+
+  style/font_face: "Source Han Sans CN Normal"   
+  style/font_point: 13                 
+
+  switcher/hotkeys: 
+    - "Control+F4"
+  
+  app_options/dota2:
+    ascii_mode: true
+
+  ascii_composer/good_old_caps_lock: true
+  ascii_composer/switch_key:
+    Caps_Lock: noop
+    Shift_L: commit_code
+    Shift_R: inline_ascii
+    Control_L: clear
+    Control_R: commit_text
